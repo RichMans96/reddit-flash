@@ -1,24 +1,9 @@
 .post-container {
- width: 1000px;
- height: 700px;
- align-self: center;
- box-shadow: 13px 13px 41px #e6e6e6;
- border-radius: 20px;
- display: flex;
- flex-direction: column;
- justify-content: space-between;
-}
-
-.footer-wrapper {
- margin-bottom: 15px;
-}
-
-.reddit-icon {
- height: 40px;
- width: 40px;
- color: #ff5e5e;
-}
-
-.post-title {
- color: #868686;
+  min-width: 1000px;
+  min-height: 700px;
+  align-self: center;
+  box-shadow: 13px 13px 41px #e6e6e6;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
 }
