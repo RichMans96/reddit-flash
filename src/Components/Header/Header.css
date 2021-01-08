@@ -1,0 +1,25 @@
+.header-banner {
+ height: 80px;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
+ box-shadow: 13px 13px 41px #e6e6e6;
+ font-weight: 300;
+ margin-bottom: 100px;
+}
+.heading {
+ margin-left: 10px;
+ color: #868686;
+}
+
+.heading-flash {
+ color: #ff5e5e;
+ margin-left: 10px;
+}
+
+.reddit-icon {
+ height: 40px;
+ width: 40px;
+ color: #ff5e5e;
+}
