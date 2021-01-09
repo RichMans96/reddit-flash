@@ -1,9 +1,53 @@
 .post-container {
-  min-width: 1000px;
-  min-height: 700px;
+  min-width: 500px;
   align-self: center;
   box-shadow: 13px 13px 41px #e6e6e6;
   border-radius: 20px;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.post-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-wrapper {
+  margin-bottom: 15px;
+}
+
+.header-wrapper {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reddit-icon {
+  height: 40px;
+  width: 40px;
+  color: #ff5e5e;
+}
+
+.post-title {
+  color: #868686;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  height: 700px;
+  width: 400px;
+}
+
+.img-item {
+  align-self: center;
+  width: 100%;
+  height: auto;
 }

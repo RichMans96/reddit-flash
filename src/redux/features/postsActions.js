@@ -30,7 +30,7 @@ export const fetchPosts = () => {
   return (dispatch) => {
     dispatch(fetchPostsRequest);
     axios
-      .get('https://www.reddit.com/r/popular.json')
+      .get('https://www.reddit.com/r/pics.json')
       .then((response) => {
         const posts = response.data.data.children;
         console.log(posts);
